@@ -32,6 +32,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
