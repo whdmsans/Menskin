@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pressed 상태 -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#00FF00"/> <!-- 눌린 상태일 때 배경 색상 -->
+            <stroke
+                android:width="5dp"
+                android:color="@android:color/darker_gray"/>
+        </shape>
+    </item>
+
+    <!-- 나머지 상태 (기본 상태) -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/white"/> <!-- 기본 배경 색상 -->
+            <stroke
+                android:width="5dp"
+                android:color="@android:color/darker_gray"/>
+        </shape>
+    </item>
+</selector>

@@ -7,8 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.menskin.SharedVariables.SharedVariables;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -16,12 +14,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button1 = findViewById(R.id.button1);
-        Button button2 = findViewById(R.id.button2);
-        Button button3 = findViewById(R.id.button3);
-        Button button4 = findViewById(R.id.button4);
+        Button btn1 = findViewById(R.id.btn1);
+        Button btn2 = findViewById(R.id.btn2);
+        Button btn3 = findViewById(R.id.btn3);
+        Button btn4 = findViewById(R.id.btn4);
 
-        button1.setOnClickListener(new View.OnClickListener() {
+        btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // 화면 1로 이동하는 코드를 작성
@@ -30,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        button2.setOnClickListener(new View.OnClickListener() {
+        btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // 화면 2로 이동하는 코드를 작성
@@ -39,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        button3.setOnClickListener(new View.OnClickListener() {
+        btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // 화면 3로 이동하는 코드를 작성
@@ -48,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        button4.setOnClickListener(new View.OnClickListener() {
+        btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // 화면 4로 이동하는 코드를 작성
