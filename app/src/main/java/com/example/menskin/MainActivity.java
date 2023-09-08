@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.menskin.SharedVariables.SharedVariables;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
